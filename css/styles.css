@@ -1,11 +1,24 @@
 * {
   border: 1px solid black;
+  color: #36384C;
+}
+
+body {
+  background-color: #E9DCCD;
+}
+
+div {
+  background-color: #849974;
 }
 
 img {
   width: 150px;
   border-radius: 100%;
   filter: grayscale();
+}
+
+.navigation, .project-samples {
+  background-color: #E3BAB3;
 }
 
 .project img {
