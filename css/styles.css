@@ -1,14 +1,9 @@
 * {
-  /*border: 1px solid black;*/
-  color: #494949;
-}
-
-body {
-  background-color: #EAE7DC;
+  color: white;
 }
 
 div {
-  background-color: #D8C3A5;
+  background-color: #BFD8D2;
 }
 
 img {
@@ -19,10 +14,6 @@ img {
 
 ul {
   list-style-type: none;
-}
-
-a {
-  color: #E85A4F;
 }
 
 .welcome {
@@ -47,18 +38,22 @@ a {
   border: none;
 }
 
+.small-card h1,h3,h5,p,li {
+  color: #E85A4F;
+}
+
 .contact-icons li{
   display: inline;
   margin: 10px;
 }
 
 .navigation {
-  background-color: #E98074;
+  background-color: #DF744A;
   border-radius: 5px;
 }
 
 .project-samples {
-  background-color: #252839;
+  background-color: #DCB239;
   border-radius: 5px;
 }
 
