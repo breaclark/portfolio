@@ -49,6 +49,7 @@ a {
 
 .contact-icons li{
   display: inline;
+  margin: 10px;
 }
 
 .navigation {
@@ -89,10 +90,11 @@ a {
   margin: 20px;
 }
 
-.project .btn {
+.projects .btn {
   border-radius: 150px;
 }
 
 .footer {
   background-color: #252839;
+  height: 50px;
 }
