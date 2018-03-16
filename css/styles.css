@@ -29,8 +29,8 @@ ul {
   background-color: #252839;
 }
 
-.project-samples btn {
-  border-radius: 100%;
+.project-samples .btn {
+  border-radius: 180px;
 }
 
 .project img {
