@@ -5,3 +5,8 @@
 img {
   width: 150px;
 }
+
+.project img {
+  float: left;
+  margin: 20px;
+}
