@@ -23,6 +23,7 @@ ul {
 
 .welcome {
   background-image: url("../img/texture.jpg");
+  margin-bottom: -20px;
 }
 
 .navigation {
@@ -42,6 +43,15 @@ ul {
 .card {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.card h6 {
+  margin-top: 1px;
+}
+
+.skills li {
+  float: left;
+  margin: 2px;
 }
 
 .project img {
