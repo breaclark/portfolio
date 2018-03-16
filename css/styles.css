@@ -125,4 +125,28 @@ em, strong {
     padding-top: 0px;
   }
 
+  .project-samples img {
+    width: 50px;
+  }
+
+  .project-samples .btn {
+    border-radius: 50px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .navigation .btn {
+    font-size: 14px;
+    padding: 1px;
+  }
+
+  .project-samples img {
+    width: 25px;
+  }
+
+  .project-samples .btn {
+    border-radius: 25px;
+  }
+
 }
