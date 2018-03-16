@@ -7,8 +7,8 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="welcome">
-        <img src="img/face.jpg">
+      <div class="welcome" id="welcome">
+        <img src="img/face.jpg" class="img-circle">
         <h1>Brea Clark</h1>
         <h3>Aspiring Professional Developer</h3>
         <p>Something <strong>here</strong> about my <span>mission</span> in life and why I'm going to be <em>great</em> and all of that</p>
@@ -29,18 +29,36 @@
       <div class="stickytop">
         <!-- if its too hard to make this go over welcome, put welcome in here as well and have it all stick to the top -->
         <div class="navigation">
-
+          <nav>
+            <ul class="nav nav-pills nav-justified">
+              <li role="presentation">
+                <a href="#welcome">About and Contact</a>
+              </li>
+              <li role="presentation">
+                <a href="#education">Education</a>
+              </li>
+              <li role="presentation">
+                <a href="#work">Work</a>
+              </li>
+              <li role="presentation">
+                <a href="#skills">Skills</a>
+              </li>
+              <li role="presentation">
+                <a href="#projects">Projects</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="project-samples">
-          <a href="#wiki"><img src="img/wiki.jpg"></a>
-          <a href="#animal-shelter"><img src="img/animal_shelter.jpg"></a>
-          <a href="#nat-park"><img src="img/nat_park.jpg"></a>
-          <a href="#lotto"><img src="img/lotto.jpg"></a>
-          <a href="#bechdel"><img src="img/bechdel.jpg"></a>
+          <a href="#wiki"><img src="img/wiki.jpg" class="img-circle"></a>
+          <a href="#animal-shelter"><img src="img/animal_shelter.jpg" class="img-circle"></a>
+          <a href="#nat-park"><img src="img/nat_park.jpg" class="img-circle"></a>
+          <a href="#lotto"><img src="img/lotto.jpg" class="img-circle"></a>
+          <a href="#bechdel"><img src="img/bechdel.jpg" class="img-circle"></a>
         </div>
       </div>
       <div class="main">
-        <div class="education">
+        <div class="education" id="education">
           <ul>
             <li>
               <h3>Epicodus</h3>
@@ -64,7 +82,7 @@
             </li>
           </ul>
         </div>
-        <div class="work">
+        <div class="work" id="work">
           <!-- make this more cohesive sounding later -->
           <ul>
             <li>
@@ -84,13 +102,13 @@
             </li>
             <li>
               <h3>Teacher's Assistant in Pre-Calculus</h3>
-              <h5>/Saint Mary's College of California September 2014 - December 2014</h5>
+              <h5>Saint Mary's College of California September 2014 - December 2014</h5>
               <p>Finding new ways to further understanding in Pre-Calculus</p>
             </li>
 
           </ul>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -102,85 +120,87 @@
           </ul>
         </div>
         <!-- within each project, float the two boxes within -->
-        <div class="project" id="wiki">
-          <h3>Wikipedia Imitation</h3>
-          <img src="img/wiki.jpg">
-          <a href=""></a>
-          <div class="project-skills">
-            <ul>
-              <li>HMTL</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-            </ul>
+        <div id="projects">
+          <div class="project" id="wiki">
+            <h3>Wikipedia Imitation</h3>
+            <img src="img/wiki.jpg" class="img-circle">
+            <a href=""></a>
+            <div class="project-skills">
+              <ul>
+                <li>HMTL</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="project-about">
+              <p>Wikipedia definitely wasn't made in one day! This is an epicodus exercise that challenged us to recreate an existing website. We were able to use bootstrap to style the website. It was a real challenge to appropriately float divs and make them work well with headers and navigation.</p>
+            </div>
           </div>
-          <div class="project-about">
-            <p>Wikipedia definitely wasn't made in one day! This is an epicodus exercise that challenged us to recreate an existing website. We were able to use bootstrap to style the website. It was a real challenge to appropriately float divs and make them work well with headers and navigation.</p>
+          <div class="project" id="animal-shelter">
+            <h3>Animal Shelter Website</h3>
+            <img src="img/animal_shelter.jpg" class="img-circle">
+            <a href=""></a>
+            <div class="project-skills">
+              <ul>
+                <li>HMTL</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div class="project-about">
+              <p>Why shouldn't your local shelter have flashing rainbow colors? This is an epicodus exercise that encouraged us to explore the world of css and try out different stylings. We learned about floats and the box model, and pushed ourseves to add some keyframe styling.</p>
+            </div>
           </div>
-        </div>
-        <div class="project" id="animal-shelter">
-          <h3>Animal Shelter Website</h3>
-          <img src="img/animal_shelter.jpg">
-          <a href=""></a>
-          <div class="project-skills">
-            <ul>
-              <li>HMTL</li>
-              <li>CSS</li>
-            </ul>
+          <div class="project" id="nat-park">
+            <h3>National Park Project</h3>
+            <img src="img/nat_park.jpg" class="img-circle">
+            <a href=""></a>
+            <div class="project-skills">
+              <ul>
+                <li>Data Collection</li>
+                <li>Data Cleansing</li>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+              </ul>
+            </div>
+            <div class="project-about">
+              <p>Let's roadtrip across America's National Parks! In this project I collected data from the National Parks website and used it to plot all the parks and the best seasons to visit each in, aiming to make a guide for a roadtrip across America.</p>
+            </div>
           </div>
-          <div class="project-about">
-            <p>Why shouldn't your local shelter have flashing rainbow colors? This is an epicodus exercise that encouraged us to explore the world of css and try out different stylings. We learned about floats and the box model, and pushed ourseves to add some keyframe styling.</p>
+          <div class="project" id="lotto">
+            <h3>Lotto Data Python</h3>
+            <img src="img/lotto.jpg" class="img-circle">
+            <a href=""></a>
+            <div class="project-skills">
+              <ul>
+                <li>Data Cleansing</li>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Plotly</li>
+              </ul>
+            </div>
+            <div class="project-about">
+              <p>Lotto data is great for practice plotting. I attempted to plot 2015 Lotto data from different states in both Python and R using both Matplotlib and Plotly. This was an exercise in using different technologies.</p>
+            </div>
           </div>
-        </div>
-        <div class="project" id="nat-park">
-          <h3>National Park Project</h3>
-          <img src="img/nat_park.jpg">
-          <a href=""></a>
-          <div class="project-skills">
-            <ul>
-              <li>Data Collection</li>
-              <li>Data Cleansing</li>
-              <li>Python</li>
-              <li>Pandas</li>
-              <li>Matplotlib</li>
-            </ul>
-          </div>
-          <div class="project-about">
-            <p>Let's roadtrip across America's National Parks! In this project I collected data from the National Parks website and used it to plot all the parks and the best seasons to visit each in, aiming to make a guide for a roadtrip across America.</p>
-          </div>
-        </div>
-        <div class="project" id="lotto">
-          <h3>Lotto Data Python</h3>
-          <img src="img/lotto.jpg">
-          <a href=""></a>
-          <div class="project-skills">
-            <ul>
-              <li>Data Cleansing</li>
-              <li>Python</li>
-              <li>Pandas</li>
-              <li>Matplotlib</li>
-              <li>Plotly</li>
-            </ul>
-          </div>
-          <div class="project-about">
-            <p>Lotto data is great for practice plotting. I attempted to plot 2015 Lotto data from different states in both Python and R using both Matplotlib and Plotly. This was an exercise in using different technologies.</p>
-          </div>
-        </div>
-        <div class="project" id="bechdel">
-          <h3>Bechdel Project</h3>
-          <img src="img/bechdel.jpg">
-          <a href=""></a>
-          <div class="project-skills">
-            <ul>
-              <li>Data Collection</li>
-              <li>Data Cleansing</li>
-              <li>Python</li>
-              <li>Pandas</li>
-              <li>Matplotlib</li>
-              <li>Scikit-learn</li>
-            </ul>
-          </div>
-          <div class="project-about">
-            <p>Can you predict whether or not a movie will pass the Bechdel test? This was a project I worked on during my time with General Assembly. I created a decision tree classifier trained on movie data from imdb that aimed to predict the outcome of the Bechdel test using genre, age rating, cast, director, and writer. A writer's past history matters a lot!</p>
+          <div class="project" id="bechdel">
+            <h3>Bechdel Project</h3>
+            <img src="img/bechdel.jpg" class="img-circle">
+            <a href=""></a>
+            <div class="project-skills">
+              <ul>
+                <li>Data Collection</li>
+                <li>Data Cleansing</li>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Scikit-learn</li>
+              </ul>
+            </div>
+            <div class="project-about">
+              <p>Can you predict whether or not a movie will pass the Bechdel test? This was a project I worked on during my time with General Assembly. I created a decision tree classifier trained on movie data from imdb that aimed to predict the outcome of the Bechdel test using genre, age rating, cast, director, and writer. A writer's past history matters a lot!</p>
+            </div>
           </div>
         </div>
       </div>
