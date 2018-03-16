@@ -21,17 +21,16 @@ ul {
   list-style-type: none;
 }
 
-.navigation, .project-samples {
+nav {
   background-color: #E98074;
 }
 
-.navbar-nav {
-  display: inline-block;
+btn {
+  background-color: #E98074;
 }
 
-.navbar-nav li {
-  display: inline-block;
-  margin: 20px;
+.navigation, .project-samples {
+  background-color: #E98074;
 }
 
 .project img {
