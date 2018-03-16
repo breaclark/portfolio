@@ -20,6 +20,14 @@ a {
   color: white;
 }
 
+span {
+  font-size: 20px;
+}
+
+em, strong {
+  color: #E85A4F;
+}
+
 .welcome {
   background-image: url("../img/texture.jpg");
   margin-bottom: -20px;
@@ -42,8 +50,12 @@ a {
   border: none;
 }
 
-.small-card h1,h3,h5,p,li {
+.small-card h5,p,li {
   color: #E85A4F;
+}
+
+.small-card h1 {
+  color: #252839;
 }
 
 .contact-icons li{
@@ -90,7 +102,7 @@ a {
 }
 
 .projects li {
-  color: white;
+  color: #E85A4F;
 }
 
 .footer {

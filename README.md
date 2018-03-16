@@ -15,7 +15,7 @@ This is an exercise in everything learned in the first week of Epicodus, includi
 
 ## Known Bugs
 
-No Known Bugs
+Jumping to a point in the page doesn't play well with the .sticky-top class, so I had to place my jump points higher up than you would expect to avoid using Javascript.
 
 ## Support and contact details
 
