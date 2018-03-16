@@ -16,6 +16,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: white;
+}
+
 .welcome {
   background-image: url("../img/texture.jpg");
   margin-bottom: -20px;
@@ -63,6 +67,7 @@ ul {
 
 .section-title {
   margin-top: 40px;
+  color: #252839;
 }
 
 .card {
@@ -77,19 +82,19 @@ ul {
 
 .skills li {
   float: left;
-  margin: 8px;
-}
-
-.project img {
-  float: left;
-  margin: 20px;
+  margin: 13px;
 }
 
 .projects .btn {
   border-radius: 150px;
 }
 
+.projects li {
+  color: white;
+}
+
 .footer {
   background-color: #252839;
   height: 50px;
+  border-radius: 5px;
 }
