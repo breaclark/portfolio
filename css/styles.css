@@ -58,7 +58,12 @@ em, strong {
   color: #252839;
 }
 
-.contact-icons li{
+.contact-icons {
+  background-color: #252839;
+  border-radius: 5px;
+}
+
+.contact-icons li {
   display: inline;
   margin: 10px;
 }
@@ -109,4 +114,15 @@ em, strong {
   background-color: #252839;
   height: 50px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1015px) {
+  .welcome {
+    height: 1100px;
+  }
+
+  .small-card {
+    padding-top: 0px;
+  }
+
 }
