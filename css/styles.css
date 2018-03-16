@@ -30,10 +30,14 @@ ul {
 }
 
 .project-samples .btn {
-  border-radius: 180px;
+  border-radius: 150px;
 }
 
 .project img {
   float: left;
   margin: 20px;
+}
+
+.footer {
+  background-color: #252839;
 }
