@@ -1,14 +1,14 @@
 * {
   border: 1px solid black;
-  color: #36384C;
+  color: #494949;
 }
 
 body {
-  background-color: #E9DCCD;
+  background-color: #EAE7DC;
 }
 
 div {
-  background-color: #849974;
+  background-color: #D8C3A5;
 }
 
 img {
@@ -17,8 +17,12 @@ img {
   filter: grayscale();
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navigation, .project-samples {
-  background-color: #E3BAB3;
+  background-color: #E98074;
 }
 
 .project img {
