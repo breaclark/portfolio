@@ -40,6 +40,10 @@ ul {
   border-radius: 150px;
 }
 
+.section-title {
+  margin-top: 40px;
+}
+
 .card {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -51,7 +55,7 @@ ul {
 
 .skills li {
   float: left;
-  margin: 2px;
+  margin: 8px;
 }
 
 .project img {
