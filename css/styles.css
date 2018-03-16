@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   color: #494949;
 }
 
@@ -23,6 +23,15 @@ ul {
 
 .navigation, .project-samples {
   background-color: #E98074;
+}
+
+.navbar-nav {
+  display: inline-block;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin: 20px;
 }
 
 .project img {
