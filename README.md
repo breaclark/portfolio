@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an exercise in everything learned in the first week of Epicodus, including HTML, CSS, and Bootstrap. View it at breatortilla.github.io/portfolio
+This is an exercise in everything learned in the first week of Epicodus, including HTML, CSS, and Bootstrap. View it at https://breatortilla.github.io/portfolio/
 
 ## Setup/Installation Requirements
 
