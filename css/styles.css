@@ -118,7 +118,7 @@ em, strong {
 
 @media screen and (max-width: 1015px) {
   .welcome {
-    height: 1100px;
+    height: 1200px;
   }
 
   .small-card {
@@ -131,6 +131,13 @@ em, strong {
 
   .project-samples .btn {
     border-radius: 50px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .small-card {
+    width: 300px;
   }
 
 }
