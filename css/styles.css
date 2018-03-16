@@ -21,16 +21,16 @@ ul {
   list-style-type: none;
 }
 
-nav {
+.navigation {
   background-color: #E98074;
 }
 
-btn {
-  background-color: #E98074;
+.project-samples {
+  background-color: #252839;
 }
 
-.navigation, .project-samples {
-  background-color: #E98074;
+.project-samples btn {
+  border-radius: 100%;
 }
 
 .project img {
