@@ -4,6 +4,8 @@
 
 img {
   width: 150px;
+  border-radius: 100%;
+  filter: grayscale();
 }
 
 .project img {
