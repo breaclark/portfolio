@@ -21,12 +21,18 @@ ul {
   list-style-type: none;
 }
 
+.welcome {
+  background-image: url("../img/texture.jpg");
+}
+
 .navigation {
   background-color: #E98074;
+  border-radius: 5px;
 }
 
 .project-samples {
   background-color: #252839;
+  border-radius: 5px;
 }
 
 .project-samples .btn {
