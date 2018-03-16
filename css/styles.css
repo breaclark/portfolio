@@ -39,6 +39,11 @@ ul {
   border-radius: 150px;
 }
 
+.card {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .project img {
   float: left;
   margin: 20px;
