@@ -2,11 +2,11 @@
 
 #### This is an Epicodus Independent Project
 
-#### By Brea Borlas
+#### By Brea Clark
 
 ## Description
 
-This is an exercise in everything learned in the first week of Epicodus, including HTML, CSS, and Bootstrap. View it at https://breatortilla.github.io/portfolio/
+This is an exercise in everything learned in the first week of Epicodus, including HTML, CSS, and Bootstrap. View it at https://breaclark.github.io/portfolio/
 
 ## Setup/Installation Requirements
 
@@ -19,7 +19,7 @@ Jumping to a point in the page doesn't play well with the .sticky-top class, so 
 
 ## Support and contact details
 
-Email me at brea.borlas@gmail.com
+Email me at breatortilla@gmail.com
 
 ## Technologies Used
 
@@ -29,4 +29,4 @@ Bootstrap
 
 ### License
 
-Copyright (c) 2018 **_Brea Borlas_**
+Copyright (c) 2018 **Brea Clark**
